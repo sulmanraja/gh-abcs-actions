@@ -3,7 +3,7 @@ name: 05-2. Hello World Composite
 on:
   pull_request:
      branches: [main]
-  [workflow_dispatch]
+  workflow_dispatch
 
 jobs:
   hello_world_job1:
